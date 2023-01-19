@@ -20,10 +20,10 @@ int main()
 
 	return 0;
 }
-int main()
-{
-
-}
+//int main()
+//{
+//
+//}
 
 //编译+链接+运行代码
 //快捷键：1.ctrl+F5
