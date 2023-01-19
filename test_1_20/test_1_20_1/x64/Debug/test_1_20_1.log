@@ -1,0 +1,4 @@
+﻿  test.c
+C:\code\C_code\test_1_20\test_1_20_1\test.c(1,1): warning C4828: 文件包含在偏移 0x23e 处开始的字符，该字符在当前源字符集中无效(代码页 936)。
+C:\code\C_code\test_1_20\test_1_20_1\test.c(22,5): error C2084: 函数“int main()”已有主体
+C:\code\C_code\test_1_20\test_1_20_1\test.c(16,5): message : 参见“main”的前一个定义
