@@ -83,26 +83,62 @@
 //}
 
 //性别
-enum Sex
-{
-	//这种枚举类型的变量的未来可能取值
-	//枚举常量
-	MALE = 3,//赋初值
-	FEMALE,
-	SECRET
-};
+//enum Sex
+//{
+//	//这种枚举类型的变量的未来可能取值
+//	//枚举常量
+//	MALE = 3,//赋初值
+//	FEMALE,
+//	SECRET
+//};
 
-int main()
-{
-	//4. 枚举常量
-	//可以一一列举的常量
+//int main()
+//{
+//	//4. 枚举常量
+//	//可以一一列举的常量
+//
+//	enum Sex s = MALE;
+//
+//	printf("%d\n", MALE);
+//	printf("%d\n", FEMALE);
+//	printf("%d\n", SECRET);
+//
+//	return 0;
+//}
 
-	enum Sex s = MALE;
+//字符串就是一串字符 - 用双引号括起来的一串字符
 
-	printf("%d\n", MALE);
-	printf("%d\n", FEMALE);
-	printf("%d\n", SECRET);
+//int main()
+//{
+//	"abcdef";
+//	"hello bit";
+//
+//	return 0;
+//}
 
-	return 0;
-}
+#include <string.h>
+
+//int main()
+//{
+//	//字符数组 - 数组是一组相同类型的元素
+//	//字符串在结尾的位置隐藏了一个\0的字符
+//	//\0是字符串的结束标志
+//	//char arr[] = "hello";
+//	char arr1[] = "abc";
+//	char arr2[] = { 'a','b','c' };
+//
+//	//求一下字符串的长度
+//	printf("%d\n", strlen(arr1));
+//	printf("%d\n", strlen(arr2));
+//
+//	//int len = strlen("abc");//string length
+//	//printf("%d\n", len);
+//
+//	//打印字符串
+//	//printf("%s\n", arr1);
+//	//printf("%s\n", arr2);
+//
+//	return 0;
+//}
+
 
