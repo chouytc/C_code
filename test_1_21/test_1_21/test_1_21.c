@@ -1,4 +1,5 @@
-﻿#include <stdio.h>
+﻿#define _CRT_SECURE_NO_WARNINGS 1
+#include <stdio.h>
 
 //作用域和生命周期
 // 
@@ -184,11 +185,47 @@
 //}
 
 //注释：是用来解释复杂代码的
-int main()
-{
-	//int a = 10;//C++注释风格
-	/*
-	int b = 0;
-	*/ //C语言的注释风格 - 不支持嵌套注释
-	return 0;
-}
+//int main()
+//{
+//	//int a = 10;//C++注释风格
+//	/*
+//	int b = 0;
+//	*/ //C语言的注释风格 - 不支持嵌套注释
+//	return 0;
+//}
+
+//int main()
+//{
+//	int input = 0;
+//	printf("加入比特:>");
+//	printf("那要好好学习吗(1/0)?>:");
+//	scanf("%d", &input);
+//	if (input == 1)
+//	{
+//		printf("研究生上岸。\n");
+//	}
+//	else {
+//		printf("连工作都找不到。\n");
+//	}
+//
+//	return 0;
+//}
+
+//比特 - 30000行代码 - 找一个不错的工作
+
+//int main()
+//{
+//	int line = 0;
+//	//循环
+//	while (line < 30000)
+//	{
+//		printf("%d:写代码\n", line);
+//		line++;
+//	}
+//	if (line == 30000)
+//	{
+//		printf("拿个好offer\n");
+//	}
+//
+//	return 0;
+//}
