@@ -175,14 +175,35 @@
 //}
 
 //声明函数
-extern int Add(int x, int y);
+//extern int Add(int x, int y);
+//
+//int main()
+//{
+//	int a = 10;
+//	int b = 20;
+//	int sum = Add(a, b);
+//	printf("%d\n", sum);
+//
+//	return 0;
+//}
 
-int main()
-{
-	int a = 10;
-	int b = 20;
-	int sum = Add(a, b);
-	printf("%d\n", sum);
+//define 是一个预处理指令
+//1.define定义符号
 
-	return 0;
-}
+//#define MAX 100
+//
+//int main()
+//{
+//	printf("%d\n", MAX);
+//
+//	return 0;
+//}
+
+//2.define 定义宏
+//#define ADD(X,Y) ((X)+(Y))
+//int main()
+//{
+//	printf("%d\n", 4 * ADD(2, 3));
+//
+//	return 0;
+//}
