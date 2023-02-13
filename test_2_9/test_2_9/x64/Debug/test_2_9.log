@@ -1,16 +1,2 @@
 ﻿  test_2_9.c
-C:\code\C_code\test_2_9\test_2_9\test_2_9.c(251,9): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 1 拥有了类型“size_t”
-C:\code\C_code\test_2_9\test_2_9\test_2_9.c(251,9): message : 请考虑在格式字符串中使用“%zd”
-C:\code\C_code\test_2_9\test_2_9\test_2_9.c(252,9): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 1 拥有了类型“size_t”
-C:\code\C_code\test_2_9\test_2_9\test_2_9.c(252,9): message : 请考虑在格式字符串中使用“%zd”
-C:\code\C_code\test_2_9\test_2_9\test_2_9.c(253,9): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 1 拥有了类型“size_t”
-C:\code\C_code\test_2_9\test_2_9\test_2_9.c(253,9): message : 请考虑在格式字符串中使用“%zd”
-C:\code\C_code\test_2_9\test_2_9\test_2_9.c(254,9): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 1 拥有了类型“size_t”
-C:\code\C_code\test_2_9\test_2_9\test_2_9.c(254,9): message : 请考虑在格式字符串中使用“%zd”
-C:\code\C_code\test_2_9\test_2_9\test_2_9.c(255,9): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 1 拥有了类型“size_t”
-C:\code\C_code\test_2_9\test_2_9\test_2_9.c(255,9): message : 请考虑在格式字符串中使用“%zd”
-C:\code\C_code\test_2_9\test_2_9\test_2_9.c(256,9): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 1 拥有了类型“size_t”
-C:\code\C_code\test_2_9\test_2_9\test_2_9.c(256,9): message : 请考虑在格式字符串中使用“%zd”
-C:\code\C_code\test_2_9\test_2_9\test_2_9.c(257,9): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 1 拥有了类型“size_t”
-C:\code\C_code\test_2_9\test_2_9\test_2_9.c(257,9): message : 请考虑在格式字符串中使用“%zd”
   test_2_9.vcxproj -> C:\code\C_code\test_2_9\x64\Debug\test_2_9.exe
