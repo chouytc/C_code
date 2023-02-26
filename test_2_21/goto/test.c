@@ -43,31 +43,31 @@
 //	return 0;
 //}
 
-//#include <stdlib.h>
-//#include <string.h>
-//
-//int main()
-//{
-//	//关机
-//	//C语言提供了一个函数：system() - 执行系统命令的
-//	
-//	char input[20] = { 0 };
-//	system("shutdown -s -t 120");
-//	while (1)
-//	{
-//		printf("请注意，你的电脑在1分钟内关机，如果输入：我是猪，就取消关机\n");
-//		scanf("%s", input);
-//		
-//		if (strcmp(input, "我是猪") == 0)
-//		{
-//			system("shutdown -a");
-//			break;
-//		}
-//	}
-//
-//
-//	return 0;
-//}
+#include <stdlib.h>
+#include <string.h>
+
+int main()
+{
+	//关机
+	//C语言提供了一个函数：system() - 执行系统命令的
+	
+	char input[20] = { 0 };
+	system("shutdown -s -t 120");
+	while (1)
+	{
+		printf("请注意，你的电脑在1分钟内关机，如果输入：我是猪，就取消关机\n");
+		scanf("%s", input);
+		
+		if (strcmp(input, "我是猪") == 0)
+		{
+			system("shutdown -a");
+			break;
+		}
+	}
+
+
+	return 0;
+}
 
 //goto 语句只能在一个函数范围内跳转，不能跨函数
 
