@@ -196,49 +196,173 @@
 
 //3. 写一个函数，实现一个整形有序数组的二分查找。
 //int binary_search(int *a, int k, int s)
-int binary_search(int a[], int k, int s)
-{
-	int left = 0;
-	int right = s - 1;
+//int binary_search(int a[], int k, int s)
+//{
+//	int left = 0;
+//	int right = s - 1;
+//
+//	while (left <= right)
+//	{
+//		int mid = (left + right) / 2;
+//		if (a[mid] > k)
+//		{
+//			right = mid - 1;
+//		}
+//		else if (a[mid] < k)
+//		{
+//			left = mid + 1;
+//		}
+//		else
+//		{
+//			return mid;
+//		}
+//	}
+//	return -1;
+//}
+//
+//int main()
+//{
+//	int arr[] = { 1,2,3,4,5,6,7,8,9,10 };
+//	int key = 7;
+//	int sz = sizeof(arr) / sizeof(arr[0]);
+//	//找到了，就返回找到位置的下标
+//	//找不到返回-1
+//
+//	//数组arr传参，实际传递的不是数组的本身
+//	//仅仅传过去了数组首元素的地址
+//	int ret = binary_search(arr, key, sz);
+//	if (-1 == ret)
+//	{
+//		printf("找不到\n");
+//	}
+//	else
+//	{
+//		printf("找到了，下标是：%d\n", ret);
+//	}
+//
+//	return 0;
+//}
 
-	while (left <= right)
-	{
-		int mid = (left + right) / 2;
-		if (a[mid] > k)
-		{
-			right = mid - 1;
-		}
-		else if (a[mid] < k)
-		{
-			left = mid + 1;
-		}
-		else
-		{
-			return mid;
-		}
-	}
-	return -1;
-}
+//4. 写一个函数，每调用一次这个函数，就会将 num 的值增加1。
+//void Add(int* p)
+//{
+//	(*p)++;
+//}
+//
+//int main()
+//{
+//	int num = 0;
+//	Add(&num);
+//	printf("%d\n", num);//1
+//
+//	Add(&num);
+//	printf("%d\n", num);//2
+//
+//	Add(&num);
+//	printf("%d\n", num);//3
+//
+//	return 0;
+//}
+
+
+//函数的嵌套调用和链式访问
+
+//void test3()
+//{
+//	printf("hehe\n");
+//}
+//
+//int test2()
+//{
+//	test3();
+//	return 0;
+//}
+//
+//int main()
+//{
+//	test2();
+//
+//	return 0;
+//}
+
+
+
+//#include <string.h>
+//
+//int main()
+//{
+//	//int len = strlen("abc");
+//	//printf("%d\n", len);
+//
+//	//链式访问 - 把一个函数的返回值作为另一个函数的参数
+//	//printf("%d\n", strlen("abc"));
+//
+//	//char arr1[20] = { 0 };
+//	//char arr2[] = "bit";
+//	//strcpy(arr1, arr2);
+//	//printf("%s\n", arr1);
+//
+//	//char arr1[20] = { 0 };
+//	//char arr2[] = "bit";
+//	//printf("%s\n", strcpy(arr1, arr2));//strcpy的返回值是目的地的首地址
+//
+//	printf("%d", printf("%d", printf("%d", 43)));
+//
+//	return 0;
+//}
+
+
+
+//int main()
+//{
+//	int a = 10;
+//	int b = 20;
+//	//函数声明一下 - 告知编译器有这么一个函数
+//	int Add(int x, int y);
+//
+//	int c = Add(a, b);
+//	printf("%d\n", c);
+//
+//	return 0;
+//}
+//
+////函数定义
+//int Add(int x, int y)
+//{
+//	return x + y;
+//}
+
+
+//函数定义
+//int Add(int x, int y)
+//{
+//	return x + y;
+//}
+//
+//int main()
+//{
+//	int a = 10;
+//	int b = 20;
+//
+//	int c = Add(a, b);
+//	printf("%d\n", c);
+//
+//	return 0;
+//}
+
+
+
+//#include "add.h"
+//#include "sub.h"
 
 int main()
 {
-	int arr[] = { 1,2,3,4,5,6,7,8,9,10 };
-	int key = 7;
-	int sz = sizeof(arr) / sizeof(arr[0]);
-	//找到了，就返回找到位置的下标
-	//找不到返回-1
+	int a = 10;
+	int b = 20;
 
-	//数组arr传参，实际传递的不是数组的本身
-	//仅仅传过去了数组首元素的地址
-	int ret = binary_search(arr, key, sz);
-	if (-1 == ret)
-	{
-		printf("找不到\n");
-	}
-	else
-	{
-		printf("找到了，下标是：%d\n", ret);
-	}
+	//int c = Add(a, b);
+	int c = Sub(a, b);
+	printf("%d\n", c);
 
-	return 0;
 }
+
