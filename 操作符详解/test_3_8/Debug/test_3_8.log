@@ -1,3 +1,2 @@
 ﻿  test.c
-C:\code\C_code\操作符详解\test_3_8\test.c(149,17): warning C4554: “&”: 检查运算符优先级是否存在的可能的错误；使用括号阐明优先级
   test_3_8.vcxproj -> C:\code\C_code\操作符详解\Debug\test_3_8.exe
