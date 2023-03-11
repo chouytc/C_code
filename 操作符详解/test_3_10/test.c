@@ -126,12 +126,58 @@
 //}
 
 
-int main()
-{
-	char c = 1;
-	printf("%u\n", sizeof(c));//1
-	printf("%u\n", sizeof(+c));//4
-	printf("%u\n", sizeof(-c));//4
-	printf("%u\n", sizeof(!c));//4 gcc 中为4
-	return 0;
-}
+//int main()
+//{
+//	char c = 1;
+//	printf("%u\n", sizeof(c));//1
+//	printf("%u\n", sizeof(+c));//4
+//	printf("%u\n", sizeof(-c));//4
+//	printf("%u\n", sizeof(!c));//4 gcc 中为4
+//	return 0;
+//}
+
+
+//int main()
+//{
+//	int a = 4;
+//	float f = 4.5f;
+//	a + f;
+//
+//	return 0;
+//}
+
+
+//int main()
+//{
+//	int a = 4;
+//	int b = 5;
+//	//int c = a + b * 7;//优先级决定了计算顺序
+//	int c = a + b + 7;//优先级不起作用，结合性决定了顺序
+//
+//	return 0;
+//}
+
+
+//int fun()
+//{
+//	static int count = 1;
+//	return ++count;
+//}
+//int main()
+//{
+//	int answer;
+//	//2 - 3 * 4 = -10
+//	answer = fun() - fun() * fun();
+//	printf("%d\n", answer);//输出多少？
+//	return 0;
+//}
+
+
+//int main()
+//{
+//	int i = 1;
+//	int ret = (++i) + (++i) + (++i);
+//	printf("%d\n", ret);
+//
+//	return 0;
+//}
